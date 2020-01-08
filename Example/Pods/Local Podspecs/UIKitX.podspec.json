@@ -1,0 +1,22 @@
+{
+  "name": "UIKitX",
+  "version": "0.1.0",
+  "summary": "A short description of UIKitX.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/geonu1109@gmail.com/UIKitX",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "geonu1109@gmail.com": "geonu1109@daou.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/geonu1109@gmail.com/UIKitX.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UIKitX/Classes/**/*"
+}

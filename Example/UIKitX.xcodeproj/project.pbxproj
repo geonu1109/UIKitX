@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* UIKitX_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitX_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		73D01D8C72051C463C91CD54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8845A437EDD0E0C3E0F7C1F0 /* UIKitX.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIKitX.podspec; path = ../UIKitX.podspec; sourceTree = "<group>"; };
-		8B4D9F5B6C310618F719862E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		73D01D8C72051C463C91CD54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8845A437EDD0E0C3E0F7C1F0 /* UIKitX.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIKitX.podspec; path = ../UIKitX.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B4D9F5B6C310618F719862E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D521EF9C505868478966D969 /* Pods_UIKitX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIKitX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5ED43FC43E5D545A39D7DE /* Pods-UIKitX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKitX_Example.release.xcconfig"; path = "Target Support Files/Pods-UIKitX_Example/Pods-UIKitX_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				20C18D5367AFDF9A5393C1D4 /* Pods-UIKitX_Tests.debug.xcconfig */,
 				0A051726C38207A992E79003 /* Pods-UIKitX_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
