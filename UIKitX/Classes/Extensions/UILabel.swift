@@ -52,8 +52,8 @@ extension UILabel {
         var underlineStyle: NSUnderlineStyle? = nil
         var underlineColor: UIColor? = nil
         
-        var dict: [NSAttributedStringKey: Any] {
-            var result: [NSAttributedStringKey: Any] = [:]
+        var dict: [NSAttributedString.Key: Any] {
+            var result: [NSAttributedString.Key: Any] = [:]
             if let font: UIFont = self.font {
                 result[.font] = font
             }

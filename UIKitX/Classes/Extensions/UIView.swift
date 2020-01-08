@@ -120,7 +120,7 @@ extension UIView {
         case centerX
         case centerY
         
-        var layoutAttribute: NSLayoutAttribute {
+        var attribute: NSLayoutConstraint.Attribute {
             switch self {
             case .top:
                 return .top
@@ -144,7 +144,7 @@ extension UIView {
             return self
         }
         self.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([.init(item: self, attribute: (thisConstraintType ?? targetConstraintType).layoutAttribute, relatedBy: .equal, toItem: targetView, attribute: targetConstraintType.layoutAttribute, multiplier: 1, constant: offset)])
+        NSLayoutConstraint.activate([.init(item: self, attribute: (thisConstraintType ?? targetConstraintType).attribute, relatedBy: .equal, toItem: targetView, attribute: targetConstraintType.attribute, multiplier: 1, constant: offset)])
         return self
     }
     
@@ -152,7 +152,7 @@ extension UIView {
         case height
         case width
         
-        var layoutAttribute: NSLayoutAttribute {
+        var attribute: NSLayoutConstraint.Attribute {
             switch self {
             case .height:
                 return .height
@@ -165,7 +165,7 @@ extension UIView {
     @discardableResult
     public func withSizeConstraint(_ constraintType: SizeConstraintType, value: CGFloat) -> Self {
         self.translatesAutoresizingMaskIntoConstraints = false
-        self.addConstraint(.init(item: self, attribute: constraintType.layoutAttribute, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: value))
+        self.addConstraint(.init(item: self, attribute: constraintType.attribute, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: value))
         return self
     }
     
