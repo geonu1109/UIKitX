@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIKitX'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'UIKitX is a set of extension of UIKit to implement iOS views easier.'
 
 # This description is used to generate tags and improve search results.
